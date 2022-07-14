@@ -6,19 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>ROCK PAPER SCISSORS SHOOT!</h1>
-    <h2>Player Choice: <span id="user-choice"></span></h2>
-    <h2>Computer Choice: <span id="computer-choice"></span></h2>
-    <h2>Result: <span id="result"></span></h2>
+    <div id="theGame">
+        <div class="title">
+            <h1>ROCK PAPER SCISSORS SHOOT!</h1>
+            <br>
+            <h3>best 2 out of 3</h3>
+        </div>
+        <h2>Player Choice: <span id="user-choice"></span></h2>
+        <h2>Computer Choice: <span id="computer-choice"></span></h2>
+        <h2>Player Wins: <span id="playerGamesWon"></span></h2>
+        <h2>Computer Wins: <span id="compGamesWon"></span></h2>
 
 
-    <button id="ROCK 🗿">ROCK 🗿</button>
-    <button id="PAPER 💵">PAPER 💵 </button>
-    <button id="SCISSORS ✂️">SCISSORS ✂️ </button>
+        <h2><span id="result"></span></h2>
 
+
+
+        <button class="RPS" id="Rock 🗿">ROCK 🗿</button>
+        <button class="RPS" id="Paper 💵">PAPER 💵 </button>
+        <button class="RPS" id="Scissors ✂️">SCISSORS ✂️ </button>
+    </div>
 
     <script src="script.js" charset="utf-8"></script>
 </body>
